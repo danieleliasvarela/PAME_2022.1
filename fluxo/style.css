@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: black;
+    justify-content: center;
+    width: 65%;
+    margin: 0 auto;
+}
+
+main{
+    background-color: rgb(21, 21, 21);
+}
+#logofluxo{
+    margin-top: 25vh;
+    margin-left: 5vh;
+    height: 15vh;
+    padding: 0%;
+    border: 0%;
+}
+#diventrar{
+    background-color: white;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 10px;
+    width: 15%;
+    height:10%;
+    margin-top: 1.5vh;
+    margin-left: 5vh;
+    display: flex;
+}
+#plus{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-left: 7vh;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    filter: invert(100%);
+}
+#like{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-left: 1vh;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 100px;
+    filter: invert(100%);
+}
+#fotoplay{
+    display: flex;
+    height: 4vh;
+    margin-top: 0.7vh;
+    margin-left: 0.7vh;
+}
+#botao_entrar{
+    margin-top: 1vh;
+    margin-left: 2vh;
+    color: black;
+    
+}
+#botao_fechar{
+    position: fixed;
+    top: 5vh;
+    right: 40vh;
+    padding: 6px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 1);
+    filter: invert(100%);
+}
+
+#botao_mute{
+    position: fixed;
+    bottom: 52vh;
+    right: 40vh;
+    padding: 6px;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    filter: invert(100%);
+}
+p{
+    color: white;
+    font-family: "Poppins";
+}
+header{
+    background-image:linear-gradient(to bottom, transparent 1%, rgb(21, 21, 21) 94%), url(elementos/FluxoEMPI.jpg);
+    background-repeat: no-repeat;
+    background-size: 135vh 55vh;
+    height: 53vh;
+}
+
+#divrating, #divtop1, #divresumo, #divelenco, #divgeneros{
+    border: 0px solid white;
+    display: flex;
+    margin: auto;
+}
+
+#top1, #livre{
+    height: 5vh;
+    margin-top: 1vh;
+    margin-left: 1vh;
+
+}
+
+main p{
+    margin-left: 1vh;
+    line-height: 2.7vh;
+}
+
+#relevancia{
+    color: rgb(0, 255, 0);
+}
